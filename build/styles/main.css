@@ -1,0 +1,385 @@
+main,svg:not(:root) {
+    overflow: hidden
+}
+
+.village,main,sub,sup {
+    position: relative
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
+    display: block
+}
+
+audio,canvas,video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+a:focus {
+    outline: dotted thin
+}
+
+a:active,a:hover {
+    outline: 0
+}
+
+h1 {
+    font-size: 2em
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+.daytime,main {
+    background: #9598d0
+}
+
+code,kbd,pre,samp {
+    font-family: monospace,serif;
+    font-size: 1em
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+q {
+    quotes: \201C \201D \2018 \2019
+}
+
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+button,input,select,textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0
+}
+
+button,input {
+    line-height: normal
+}
+
+button,html input[type=button],input[type=reset],input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],input[disabled] {
+    cursor: default
+}
+
+input[type=checkbox],input[type=radio] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body,figure {
+    margin: 0
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner,legend {
+    border: 0;
+    padding: 0
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+main {
+    width: 1920px;
+    height: 1080px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: "Mountains of Christmas",script
+}
+
+.northern-lights,.windows {
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    margin: 0
+}
+
+.sunset {
+    background: -webkit-gradient(linear,left bottom,left top,from(#eb4d4b),color-stop(50%,#3f438d));
+    background: linear-gradient(to top,#eb4d4b,#3f438d 50%)
+}
+
+.nighttime {
+    background: #202246
+}
+
+.village {
+    z-index: 10
+}
+
+.trees,.windows {
+    position: absolute
+}
+
+.trees {
+    z-index: 30;
+    right: 8px;
+    bottom: 82px
+}
+
+.windows--fourth li:nth-of-type(1),.windows--third li:nth-of-type(1) {
+    right: 40px;
+    position: relative
+}
+
+.windows {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 20
+}
+
+.windows li {
+    width: 36px;
+    height: 36px;
+    border: 6px solid #CAAB95
+}
+
+.lights-on {
+    background: #fbe732;
+    -webkit-box-shadow: 0 0 50px 5px rgba(251,231,50,.6);
+    box-shadow: 0 0 50px 5px rgba(251,231,50,.6)
+}
+
+.lights-off {
+    background: #c7ecee
+}
+
+.windows--first {
+    left: 185px;
+    bottom: 225px;
+    width: 190px
+}
+
+.windows--first li:nth-of-type(3) {
+    position: relative;
+    left: 30px
+}
+
+.windows--second {
+    left: 500px;
+    bottom: 108px;
+    width: 164px
+}
+
+.windows--third {
+    left: 1320px;
+    bottom: 110px;
+    width: 250px
+}
+
+.windows--fourth {
+    left: 1620px;
+    bottom: 245px;
+    width: 200px
+}
+
+.northern-lights {
+    width: 1920px;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    height: 800px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.northern-lights li {
+    width: 60%;
+    height: 100%;
+    border-radius: 20%;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg)
+}
+
+.northern-lights--red {
+    opacity: .5
+}
+
+.northern-lights--red li {
+    -webkit-filter: blur(50px);
+    background: -webkit-gradient(linear,left bottom,left top,from(#F35557),to(transparent));
+    background: linear-gradient(to top,#F35557,transparent);
+    mix-blend-mode: multiply
+}
+
+.northern-lights--green {
+    left: 100px;
+    width: 1700px;
+    opacity: .5
+}
+
+.northern-lights--green li {
+    -webkit-filter: blur(20px);
+    background: -webkit-gradient(linear,left bottom,left top,from(#00CEC9),to(transparent));
+    background: linear-gradient(to top,#00CEC9,transparent);
+    mix-blend-mode: multiply
+}
+
+.northern-lights--yellow {
+    left: 150px;
+    opacity: .5
+}
+
+.northern-lights--yellow li {
+    width: 5%;
+    -webkit-filter: blur(40px);
+    background: -webkit-gradient(linear,left bottom,left top,from(#FBC955),to(transparent));
+    background: linear-gradient(to top,#FBC955,transparent);
+    mix-blend-mode: multiply
+}
+
+.northern-lights--blue {
+    left: -50px;
+    opacity: .5;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s
+}
+
+.northern-lights--blue li {
+    width: 10%;
+    -webkit-filter: blur(50px);
+    background: -webkit-gradient(linear,left bottom,left top,from(#CBBFFE),to(transparent));
+    background: linear-gradient(to top,#CBBFFE,transparent);
+    mix-blend-mode: multiply
+}
+
+.container--countdown {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    min-width: 500px;
+    height: 400px;
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 200px
+}
+
+.container--countdown .countdown__days {
+    font-size: 400px;
+    margin: 0
+}
+
+.container--countdown .countdown__message {
+    font-size: 120px;
+    margin: 0
+}
